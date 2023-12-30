@@ -53,7 +53,7 @@ body {
 }
 .sign-up{
     background-color: royalblue;
-    color: #E5E7EB;
+    color: #F9FAF8;
     border-radius: 6px;
     padding-left: 24px;
     padding-right: 24px;
@@ -110,4 +110,37 @@ body {
 .author{
     align-self: flex-end;
     color: black;
+}
+.sign {
+    background-color: #F9FAF8;
+}
+.call-box {
+    margin: 64px;
+    background-color: #3882F6;
+    padding: 32px 64px;
+    display: flex;
+    gap: 64px;
+    justify-content: space-around;
+}
+.call-main-text {
+    color: #F9FAF8;
+    font-size: x-large;
+}
+.call-sec-text {
+    color: #E5E7EB
+}
+.call-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.Sign-up{
+    background-color: royalblue;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-color: #F9FAF8;
 }
