@@ -1,4 +1,55 @@
-body{
+body {
     display: flex;
     flex-direction: column;
+}
+.upper {
+    background-color: #1F2937;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.hero {
+    display: flex;
+    flex: 1;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+.hero-sec-text, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links{
+    display: flex;
+    gap:16px;
+}
+.hero-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: azure;
+    min-width:50%;
+    flex:1;
+}
+.sign-up{
+    background-color: royalblue;
+    color: #E5E7EB;
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-color: royalblue;
 }
